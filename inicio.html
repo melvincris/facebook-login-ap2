@@ -1,0 +1,5 @@
+{% if 'usuario' in session %}
+Bienvenido, {{ session['usuario'] }}!
+Cerrar sesión {% else %}
+Inicio
+Iniciar sesión | Registrarse {% endif %}
